@@ -1,0 +1,59 @@
+/* here you can put your own css to customize and override the theme */
+*{
+  font-weight:500;
+}
+h1,h2,h3,h4,h5,h6,p,td,th,li,a,ul, a span{
+  font-weight:500 !important;
+}
+.username{
+  font-size: 16px !important;
+}
+.form-group.form-md-line-input {
+    position: relative;
+    margin: 0 0 15px;
+    padding-top: 15px;
+}
+.icon-18{
+  font-size: 18px;
+}
+.page-sidebar .page-sidebar-menu > li > a > i[class*="icon-"], .page-sidebar .page-sidebar-menu > li > a > i[class^="icon-"], .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li > a > i[class*="icon-"], .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li > a > i[class^="icon-"] {
+    color: #fff;
+}
+
+.page-sidebar .page-sidebar-menu > li > a, .page-sidebar-closed.page-sidebar-fixed .page-sidebar:hover .page-sidebar-menu > li > a {
+    border-top: 1px solid #4a83b6;
+        border-top-color: rgb(74, 131, 182);
+    color: #FFF;
+}
+.invoiceInput{
+  font-size: 18px;
+  text-align:right;
+}
+
+.invoiceInput {
+    -moz-appearance: textfield;
+}
+.invoiceInput:hover,
+#discount:focus {
+    -moz-appearance: textfield;
+}
+.invoiceInput:-webkit-outer-spin-button,
+.invoiceInput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.table-print>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+     padding: 0px; 
+    line-height: 1.42857;
+    vertical-align: top;
+    border-top: 1px solid #e7ecf1;
+}
+.print-brand{
+  font-size: 24px;
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 5px 0px;
+}
+.print-tagline{
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+}

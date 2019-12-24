@@ -1,0 +1,1 @@
+$("#selectCustomer").select2();
